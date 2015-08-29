@@ -1,0 +1,45 @@
+{
+  "name": "autohost-webhook",
+  "version": "0.1.0",
+  "description": "A webhook resource for autohost",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arobson/autohost-webhook.git"
+  },
+  "keywords": [
+    "autohost",
+    "webhook"
+  ],
+  "author": "Alex Robson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arobson/autohost-webhook/issues"
+  },
+  "homepage": "https://github.com/arobson/autohost-webhook#readme",
+  "devDependencies": {
+    "autohost": "^0.4.5",
+    "biggulp": "^0.2.2",
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "fount": "^0.1.0",
+    "gulp": "^3.9.0",
+    "halon": "^0.3.2",
+    "hyped": "^0.2.4",
+    "nock": "^2.10.0",
+    "proxyquire": "^1.7.1",
+    "request": "^2.61.0",
+    "sinon": "^1.16.1",
+    "sinon-as-promised": "^4.0.0",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "nedb": "^1.1.3",
+    "postal": "^1.0.7",
+    "when": "^3.7.3"
+  }
+}
