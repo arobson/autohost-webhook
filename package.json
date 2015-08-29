@@ -1,8 +1,8 @@
 {
   "name": "autohost-webhook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A webhook resource for autohost",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "gulp"
   },
